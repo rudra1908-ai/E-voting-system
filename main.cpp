@@ -29,6 +29,7 @@ class Voter : public person
 {
 	protected:
 		int status;
+		long voterid;
 	public:
 };
 void candidate()
