@@ -44,7 +44,11 @@ void candidate()
 		cout << "4. Search Candidate" << endl;
 		cout << "5. Update Candidate Details" << endl;
 		cout << "6. Display Details of All candidates" << endl;
-		cout << "7. Exit" << endl;
+		cout << "7. Insert Voter details" << endl;
+		cout << "8. Update voter details" << endl;
+		cout << "9. Delete Voter records" << endl;
+		cout << "10. Search Voter Details" << endl;
+		cout << "11. Exit" << endl;
 		cout << "Enter choice : ";
 		cin >> choice;
 		switch(choice)
@@ -62,48 +66,25 @@ void candidate()
 			case 6:
 				break;
 			case 7:
+				break;
+			case 8:
+				break;
+			case 9:
+				break;
+			case 10:
+				break;
+			case 11:
 				cout << "Exiting from the Candidate Menu";
 				break;
 			default:
 				cout << "Invalid choice..." << endl;
 				break;
 		}
-	}while(choice != 7);
+	}while(choice != 11);
 }
 void voter()
 {
-	int choice;
-	do
-	{
-		cout << "\n---Menu---\n";
-		cout << "1. Insert Voter details" << endl;
-		cout << "2. Give vote" << endl;
-		cout << "3. Update voter details" << endl;
-		cout << "4. Delete Voter records" << endl;
-		cout << "5. Search Voter Details" << endl;
-		cout << "6. Exit" << endl;
-		cout << "Enter choice : ";
-		cin >> choice;
-		switch(choice)
-		{
-			case 1:
-				break;
-			case 2:
-				break;
-			case 3:
-				break;
-			case 4:
-				break;
-			case 5:
-				break;
-			case 6:
-				cout << "Exiting from the program..." << endl;
-				break;
-			default:
-				cout << "Invalid choice...\n";
-				cout << "Try again...\n";
-		}
-	}while(choice != 6);
+	//Vote function write to here
 }
 int main()
 {
